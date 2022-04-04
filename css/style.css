@@ -1,29 +1,31 @@
 /* GENERAL RULES */
 
-.bordo{
+.bordo {
     border: 1px solid black;
 }
 
 /* HEADER */
 
-.logo-text{
+.logo-text {
     font-size: 1.6rem;
     font-weight: 700;
     vertical-align: middle;
 }
-.form-control{
-    display: inline-block!important;
-    width: auto!important;
+
+.form-control {
+    display: inline-block !important;
+    width: auto !important;
 }
 
 /* MAIN */
 
-main{
+main {
     background-color: lightgreen;
     height: 80vh;
     position: relative;
 }
-main .wrapper{
+
+main .wrapper {
     width: 400px;
     height: 400px;
     margin: 0 auto;
@@ -36,21 +38,23 @@ main .wrapper{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.grid-facile{
+
+.grid-facile {
     width: calc(100% / 10);
     height: calc(100% / 10);
     line-height: calc(400px / 10);
 }
-.grid-medio{
+
+.grid-medio {
     width: calc(100% / 9);
     height: calc(100% / 9);
     line-height: calc(400px / 9);
 }
-.grid-difficile{
+
+.grid-difficile {
     width: calc(100% / 7);
     height: calc(100% / 7);
     line-height: calc(400px / 7);
 }
 
 /* FOOTER */
-

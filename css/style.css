@@ -43,18 +43,26 @@ main .wrapper {
     width: calc(100% / 10);
     height: calc(100% / 10);
     line-height: calc(400px / 10);
+    cursor: crosshair;
 }
 
 .grid-medio {
     width: calc(100% / 9);
     height: calc(100% / 9);
     line-height: calc(400px / 9);
+    cursor: crosshair;
 }
 
 .grid-difficile {
     width: calc(100% / 7);
     height: calc(100% / 7);
     line-height: calc(400px / 7);
+    cursor: crosshair;
+}
+
+.sfondo{
+    background-color: green;
+    cursor: crosshair;
 }
 
 /* FOOTER */

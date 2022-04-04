@@ -45,7 +45,7 @@ function generaCampoMinato() {
             return cols;
         }
         stampareGrigliaMedio();
-    } else if (livello = 'difficilissimo') {
+    } else {
         function stampareGrigliaDifficile() {
             let grid = document.getElementById('grid');
             let colsCreate = creaColonneDifficile();
@@ -64,6 +64,20 @@ function generaCampoMinato() {
         }
         stampareGrigliaDifficile();
     }
+    
+    function coloraSfondo() {
+        const coloraCelle = document.querySelectorAll("div.grid-difficile, div.grid-medio, div.grid-facile");
+        return coloraCelle;
+    }
+    let colora = coloraSfondo();
+    console.log(colora);
+
+    for (let i = 0; i < colora.length; i++) {
+        colora[i].addEventListener('click', function () {
+            colora[i].classList.add('sfondo');
+        })
+    }
+
 }
 
 document.getElementById('bottone').addEventListener('click', generaCampoMinato);

@@ -1,5 +1,7 @@
 /* GENERAL RULES */
-
+.bordo{
+    border: 1px solid black;
+}
 
 /* HEADER */
 .logo-text{
@@ -13,9 +15,39 @@
 }
 
 /* MAIN */
-main .container-fluid{
+main{
     background-color: lightgreen;
     height: 80vh;
+    position: relative;
+}
+main .wrapper{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.grid-difficile{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    line-height: 40px;
+}
+.grid-medio{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    line-height: calc(400px / 9);
+}
+.grid-facile{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    line-height: calc(400px / 7);
 }
 
 /* FOOTER */

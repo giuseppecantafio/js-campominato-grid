@@ -1,0 +1,22 @@
+/* GENERAL RULES */
+
+
+/* HEADER */
+.logo-text{
+    font-size: 1.6rem;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.form-control{
+    display: inline-block!important;
+    width: auto!important;
+}
+
+/* MAIN */
+main .container-fluid{
+    background-color: lightgreen;
+    height: 80vh;
+}
+
+/* FOOTER */
+
